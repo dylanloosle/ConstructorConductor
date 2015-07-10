@@ -14,7 +14,7 @@ var User = function(name, email, pw){
 //Create an Array called 'users' that will store all our instances of User.
 
   //code here
-var users = [tyler, lenny, dylan];
+var users = [];
 
 //Now create and push into your users array 3 separate instances of User using the data from above in that exact order
 

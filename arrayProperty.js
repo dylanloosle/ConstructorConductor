@@ -3,3 +3,12 @@
 //Add a reverse method to the String 'class' so that every instance of String can call reverse and reverse itself.
   
   //code here
+
+String.prototype.reverseString = function(x){
+    var o = [];
+    for(var i = x.length-1; j = 0; i >= 0; i--; j++)
+    {
+        o[j] = x[i];
+    }
+    return o.join('');
+};

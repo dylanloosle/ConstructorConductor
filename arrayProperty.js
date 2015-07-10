@@ -4,11 +4,7 @@
   
   //code here
 
-String.prototype.reverseString = function(x){
-    var o = [];
-    for(var i = x.length-1; j = 0; i >= 0; i--; j++)
-    {
-        o[j] = x[i];
-    }
-    return o.join('');
+String.prototype.reverse = function(){
+    return this.split("").reverse().join("");
 };
+"dylan".reverse();
